@@ -1,0 +1,582 @@
+/* 	Start 	Global 	*/
+
+body {
+}
+*{
+    font-family: 'Cairo', sans-serif;
+}
+
+.cell-veiw{
+  display: table-cell;
+  vertical-align: middle;
+  height: inherit;
+}
+
+.nopadding{
+    padding: 0;
+}
+
+section{
+    overflow: hidden;
+}
+/* 	End 	Global 	*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/********** 	Start 	Header 	         **********/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/***********    Header top section       **********/
+
+.top-sec{
+    width: 100%;
+    height: 122px;
+    background-color: #232c3b;
+    color: #fff;
+}
+.top-sec .contact-sec{
+    margin: 40px 0;
+}
+.top-sec .contact-sec h2{
+    color: #a3403b;
+    margin: 0 0 0 20px !important;
+
+}
+.top-sec .contact-sec .numper{
+    padding: 7px 0 0;
+    font-size: 1.333em;
+}
+
+
+/***********    Header top section       **********/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/***********    Navbar       **********/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.nav-fix{
+    overflow: visible;
+}
+
+.navbar{
+    margin: 0;
+    z-index: 1;
+    background: #fff;
+    box-shadow: 2px 4px 8px 0 rgba(0,0,0,0.1);
+}
+.nav-content{
+
+}
+.navbar-inverse{
+    border: none;
+    background: #fff;   
+}
+.navbar-inverse .navbar-toggle{
+    position: relative;
+    left: 15px;
+    background: #e74c3c;
+    border: none;
+    top: 25px;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #b33b2fe3;
+}
+.affix {
+      top: 0;
+      width: 100%;
+      -webkit-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;
+  }
+
+
+/***********    Logo         *********/
+.logo-sec{
+    width: 100px;
+    height: 111px;
+    position: absolute;
+    right: 70px;
+
+}
+.logo{
+    display: table-cell;
+    vertical-align: middle;
+    height: inherit;
+}
+.logo-sec .logo img{
+    max-width: 90%;
+
+}
+/***********    Logo         *********/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/***********    right-side         *********/
+.right-side{
+    display: inline;
+    margin: 0 90px 0 0 ;
+}
+.right-side ul{
+    margin: 45px 0 0 0;
+    display: inline-table;
+    padding: 0 10px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/***********    Drop Down       **********/
+.dropbtn {
+    background: none;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: rgb(35, 44, 59);;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 10px;
+    font-size: 19px;
+    overflow: hidden;
+}
+.dropdown-content a {
+	color:rgba(171, 165, 165, 0.9) !important;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+}
+.dropdown-content a:hover {color: #e74c3c !important;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    color: #e74c3c;
+}
+
+
+/***********    Drop Down       **********/
+
+/***********    right-side         *********/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/***********    Left Side       **********/
+.left-side{
+  margin: 20px;
+}
+.left-side .navbar-btn{
+    padding: 15px 19px;
+    background: #e74c3c;
+    color: #fff;
+    font-size: smaller;
+    box-shadow: 2px 4px 8px 0 rgba(0,0,0,0.2);
+    transition: all 350ms ease-in-out;
+}
+
+.left-side .navbar-btn:hover{
+    box-shadow: 1px 1px 2px rgba(0,0,0,.2), inset 0 -38px #EF6355;
+}
+.left-side .lead{
+    padding: 25px;
+    font-size: 1em;
+}
+
+/***********    Left Side       **********/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/***********    Navbar       **********/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/***********	End 	Header 	**********/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/* 	   Iframe 	*/
+.frame-sec{
+    cursor: pointer;
+    position: relative;
+}
+.frame-sec iframe {
+    display: block;
+    width: 100%;
+    border: none;
+    margin: 0;
+    box-sizing: border-box;
+    width: 1px;
+    min-width: 100%;
+    max-height:800px;
+    cursor: pointer;
+}
+/* 	  Iframe 	*/
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/***********    Start     Our Service  **********/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.our-service{
+    margin-top: 85px;
+}
+/*    Intery-section    */
+.entery-sec{
+
+    width: 65%;
+    margin: 20px auto;
+}
+.our-service .entery-sec p.lead{
+
+    margin: 20px 0;
+    color: #777 !important;
+}
+/*    Intery-section    */
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*    Tabs Section    */
+
+.tabs-sec .tabs{
+    margin: 40px auto 60px;
+    text-align: center;
+
+}
+.tabs-sec .tabs ul{
+    border: none;
+}
+.tabs-sec .tabs .nav-tabs>li{
+  float: none;
+  display: inline-block;
+  margin: -2.1px;
+}
+.tabs-sec .tabs .nav-tabs>li>a{
+    border-radius: 0%;
+    background: #232c3b;
+    color: #fff;
+    padding: 13px 35px;
+    transition: all 150ms linear;
+}
+
+.tabs-sec .tabs .nav-tabs>li>a:hover,
+.tabs-sec .tabs .nav-tabs li.active a{
+    background: #e74c3c;
+}
+
+/*    Tabs Section    */
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*    Tabs Content Section    */
+.content-sec .col-sm-6{
+    padding: 0 20px 20px;
+
+}
+.content-sec .col-sm-6 img{
+    width: 80px;
+    height: 80px;
+    display: inline-block
+}
+.content-sec .col-sm-6 p{
+    color:#6a7483;
+    font-size: 15px;
+}
+/*    Tabs Content Section    */
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/***********    End     Our Service  **********/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/***********    Start Why us   **********/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.why-us{
+    background: url(../images/background-10.jpg) no-repeat center center;
+
+}
+.why-us h1{
+    padding: 22px 0 0;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+}
+
+p.lead{
+    font-size: 20px;
+    margin: 30px 0;
+    color: #c6cad2;
+}
+
+ .title.text-left {
+    margin: 0 0 0 145px
+}
+
+ .title.text-right{
+    margin: 0 145px 0 0;
+}
+{
+    padding: 60px 0 0 0;
+}
+.why-us .info p{
+    padding: 30px 0;
+}
+.why-us .why-sec{
+    margin: 0 0 45px;
+    color: #c6cad2;
+}
+
+.why-us .why-sec h3{
+    color: #ccc;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/***********    End Why us    **********/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/***********    Start Registory Section   **********/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/***********    Registory Top Section   **********/
+.reg{
+  background: #232c3b;
+  height: 600px;
+}
+.reg h1{
+  color:#fff;
+}
+.reg .title{
+  width: 50%
+}
+
+
+/***********   Registory Top Section   **********/
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/******** End Registory Section   ********/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/***********    Start Turst Section   **********/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.trust .title{
+  width: 50%;
+}
+.trust p{
+  color: #6a7483;
+}
+
+.trust .right-side-text{
+  height: 450px;
+}
+.trust .right-side-text p{
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 15px 0;
+}
+
+.trust .right-side-text .subtitle img{
+    margin: 0 0 0 10px;
+}
+.trust .right-side-text ul li{
+    padding: 7px 7px 11px 0;
+    font-size: 16px;
+    color: #6a7483;
+}
+
+.trust .right-side-text ul li:before{
+    background: url(../images/icon-50.png);
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 15px;
+    content: "";
+
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/********   End Turst Section         ********/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/***********    Start Support Section   **********/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.support{
+    background: url(../images/background-14.jpg) center center;
+    background-size: cover;
+}
+.support .container{
+    padding: 80px 15px;
+}
+.support .button-description{
+    font-size: 20px;
+    color: #c6cad2;
+    margin: 0 0 20px;
+}
+.support .button-description a{
+    color: #fff;
+}
+.support .button-description a:hover{
+    text-decoration: none;
+    color: #e74c3c;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/********   End Support Section         ********/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/***********    Start Footer Section   **********/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+ 
+footer{
+    color: #c6cad2;
+    background-color: #232c3b;
+}
+footer .footer-boxs{
+    margin: 0 0 40px;
+}
+footer h4{
+    color: #fff;
+}
+
+footer div > p{
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+footer ul{
+    margin: 0;
+    padding:0;
+}
+footer ul li>a{
+    color: #c6cad2;
+}
+footer ul li>a:hover{
+    color: #a3403b;
+    text-decoration: none;
+}
+footer form{
+    width: 100%;
+    position: relative;
+    margin: 25px 0;
+}
+footer form input[type="email"]{
+    width: 86%;
+    background: #eee;
+    padding: 10px;
+    border: none;
+    border-radius:  0 6px 6px 0;
+}
+
+footer form input[type="submit"]{
+    border: none;
+    border-radius: 6px 0 0 6px;
+    background: #e74c3c;
+    width: 50px;
+    height: 40px;
+    background-image: url(../images/icon-21.png);
+    position: absolute;
+    left: 30px;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+footer form input[type="submit"]:hover{
+   background:#EF6355;
+}
+footer .social-tabs{
+    overflow: hidden;
+    margin: 0 0 40px;
+}
+footer .social-icon:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    background: #e74c3c;
+    transition: all .7s ease-in-out;
+}
+
+footer .social-tabs .social-icon{
+    display: block;
+    padding: 28px 0;
+    background: #ccc;
+    text-align: center;
+    position: relative;
+}
+footer .social-tabs .social-icon:hover::before {
+    right: 0%;
+
+}
+footer .social-tabs a>img{
+    position: relative;
+}
+
+.footer-line{
+    background: #161d28;
+    padding: 15px 0;
+    margin: 30px 0 0;
+}
+
+.footer-line .content{
+    height: 55px;
+}
+.footer-line img{
+    margin: 0 0 0 14px;
+    width: 45px;
+    height: 45px;
+}
+.footer-line .content a{
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1
+}
+.footer-line .content a:hover{
+    text-decoration: none;
+    color: #a3403b;
+
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/********   End Footer Section         ********/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+@media screen and (max-width: 768px) { 
+   .navbar .right-side{
+        margin: 0 35px;
+    }
+    .right-side ul li{
+        display: block;
+        padding:10px;
+    }
+    .nav-content {
+    background: #ffffffad;
+    }
+    .tabs-sec .tabs .nav-tabs>li{
+        display: block;
+    }
+}
+
+
+/* fixes */
+
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border: none;
+}
